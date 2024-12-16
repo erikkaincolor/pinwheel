@@ -1,4 +1,4 @@
-
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=erikkaincolor.903065140)
 
 # How to run these two scripts:
 
