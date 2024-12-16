@@ -1,0 +1,20 @@
+# using VSCode's 'REST Client" extension I copied this request, the 'raw data' version from the Network tab and saw the Response open in a VSCode popup
+# https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+
+# at first, I used the URL from here to reverse engineer the needed IRS.gov/priors....etc endpoint, but this wasnt it
+# I happened to hover over the pagination buttons and see the correct endpoint
+
+GET /views/ajax?_wrapper_format=drupal_ajax&find=house&product_number=&date=&title=&items_per_page=25&view_name=pup_picklists&view_display_id=prior_year_products&view_args=&view_path=%2Fnode%2F108776&view_base_path=&view_dom_id=49f7a18727045b8d89a1b380be5d2bf72bdda72a93e944a477ef1718ed0c552c&pager_element=0&_drupal_ajax=1&ajax_page_state%5Btheme%5D=pup_irs&ajax_page_state%5Btheme_token%5D=&ajax_page_state%5Blibraries%5D=eJx1kmGS2yAMhS-EQ6czex5GGAWrixGDRBLfvmAnTdLd_cPwPj2EQIJ55hqIs1sxN7Hwrt2VQkQ1EIIy5M0-Nqdz5azGoypWh7fCgsGdKXXZszRlJ82v9KMlYsYKyXhmFa1QbOHCF6wvRJmTUjHz0o9mG2orkE6HukOXyNtje5pFTACFBBtW63GBC3HtjK85MYTuzZ8ugcfU4w86DTrd6aQLrmjwpoM-brxLE5ljQqcQbezL__oEf-D2DlfTi-GmLpDM43Wb1aUizpzc7w_38auvpkCF2N-7yOPCJzm1XJpPJAsGU1pxvUEoQp4S6WjHStmNf_JQ97gHQRsTe0iTkOJ0RtBWUfbo_ImBlKsrqUXKYr-Du_NI4QTrhfqN9hu2-2i0O0PalGaZZK5U9Bl5FPID_lLfa1C3_unxH15B52VakOKiT4gRpjGpLyS3rzkz52mf2KlUys_zglB71je_0Fp6A0dxax_Cd-lGEyuF7u3-wlnoMprtE8p9tu2h4Dod2sgm_awdnTEXwqvYfT3G5RWsHFrCv8yoaDQ HTTP/2
+Host: www.irs.gov
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:134.0) Gecko/20100101 Firefox/134.0
+Accept: application/json, text/javascript, */*; q=0.01
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+X-Requested-With: XMLHttpRequest
+Connection: keep-alive
+Referer: https://www.irs.gov/prior-year-forms-and-instructions
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=0
+TE: trailers
