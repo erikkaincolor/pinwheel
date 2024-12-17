@@ -1,36 +1,17 @@
 # P!nwheel Coding Challenge:
 
 ### Table of Contents
-```
-| [Set up](#set-up)                                                     |                                                   |   |   |   |
-|-----------------------------------------------------------------------|---------------------------------------------------|---|---|---|
-| [Utility1.py](#utility1py-1)                                          | [Input](input-for-U1) / [Output](output-for-U1)   |   |   |   |
-|                                                                       | [Troubleshooting](#troubleshooting)               |   |   |   |
-|                                                                       | [Feedback](#feedback-on-u2)                       |   |   |   |
-| [Utility2.py](#utility2py)                                            | [Input](#input-for-U2) / [Output](#output-for-U2) |   |   |   |
-|                                                                       | [Feedback](#feedback-on-u1)                       |   |   |   |
-| [Final Coding Challenge Takeaways](#final-coding-challenge-takeaways) |                                                   |   |   |   |
-| [Possible Tax Feature Add-ons](#Possible-Tax-Feature-Add-ons)         |                                                   |   |   |   |
-```
-  
 
-  - [Search Inconsistencies](#search-inconsistencies)  
-
-### [Coding Challenge Takeaways](#coding-challenge-takeaways)  
-- [Known Flaws](#known-flaws)  
-- [Learnings](#learnings)  
-
-### [Additional Considerations](#additional-considerations)  
-- [Alternative Tax Form Formats](#alternative-tax-form-formats)  
-  - [Image Formats](#image-formats)  
-  - [Spreadsheet Formats](#spreadsheet-formats)  
-  - [Encrypted Formats](#encrypted-formats)  
-
-### [Questions](#questions)  
-- [Data Parsing Inquiry](#data-parsing-inquiry)  
-
-### [Additional Resources](#additional-resources)  
-- [Podcasts on Web Scraping](#podcasts-on-web-scraping)  
+| [Set up](#set-up)                                                     |                                                  |
+|-----------------------------------------------------------------------|---------------------------------------------------|
+| [Utility1.py](#utility1py)                                            | [Input](#input-for-u1) / [Output](#output-for-u1) |
+|                                                                       | [Troubleshooting](#troubleshooting)               |
+|                                                                       | [Feedback](#feedback-on-u2)                       |
+| [Utility2.py](#utility2py)                                            | [Input](#input-for-u2) / [Output](#output-for-u2) |
+|                                                                       | [Feedback](#feedback-on-u1)                       |
+| [Final Coding Challenge Takeaways](#final-coding-challenge-takeaways) |                                                   |
+| [Possible Tax Feature Add-ons](#possible-tax-feature-add-ons)         |                                                   |
+--------------------
 
 ### Set up:
 
@@ -47,7 +28,7 @@
 ------------------------
 
 # `utility1.py`
-~aka U1~
+*aka U1*
 
 ### Running `utility1.py` from root dir
 `python utility1/utility1.py utility1/search_terms.txt`
@@ -92,7 +73,7 @@ Ex:
 ### Output for U1
 Script outputs JSON into the `utility1_results.html` file 
 
-### Troubleshooting for U1
+### Troubleshooting
 - [x] Verify the IRS search HTML page structure hasn't changed! One issue with integration/reverse engineering API's (for sites that don't have an API) is changing tree structures.
 
 - [x] Ensure your search terms file is correctly formatted with one query per line. The shorter the query, the better according to the IRS.g*v's search algorithim.
@@ -107,7 +88,7 @@ I also became familiar with Beautiful Soup and got to implement handling [pagina
 ----------
 
 # `utility2.py`:
-
+*aka U2*
 ###  Command line arguments from root dir:
 `python utility2/utility2.py`
 
@@ -152,7 +133,7 @@ Looking for Form 8609 via exact Product Number match:
 ### Output for U2
 The script outputs folders with each folder name being representative of the exact IRS.g*v's "publication number"/"form number" for each tax doc. The names of the files should be an exact match as well of the form numer and the year of that form revision.
 
-### Feedback on part 2:
+### Feedback on U2:
 Nothing daunting. I just really wanted to finish. I was able to use a lot of the logic from `utility1.py`. I like that I broke this script up and made it modular. There's something satisfying knowing the data I wrangled is now accessbile, easy to capture and *pretty* all because of this script (minus the irs.gov search feature inconsistencies). 
 
 I didn't necessarily learn anything new in task #2. Reading about [P!nwheels application of a GET request for tax-forms]([https://docs.pinwheelapi.com/public/reference/list_tax_forms_v1_accounts__account_id__tax_forms_get](https://docs.pinwheelapi.com/public/reference/get_tax_form_v1_accounts__account_id__tax_forms__tax_form_id__get) made the use case more realistic.
