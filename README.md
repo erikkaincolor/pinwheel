@@ -2,21 +2,15 @@
 
 ### Table of Contents
 ```
-| [Set up](#set-up)                                                     |                                                   | 
-|-----------------------------------------------------------------------|---------------------------------------------------|
-| [Utility1.py](#utility1py-1)                                          | [Input](input-for-U1) / [Output](output-for-U1)   |
-|-----------------------------------------------------------------------|---------------------------------------------------|
-|                                                                       | [Troubleshooting](#troubleshooting)               |
-|-----------------------------------------------------------------------|---------------------------------------------------|
-|                                                                       | [Feedback](#feedback-on-u2)                       |
-|-----------------------------------------------------------------------|---------------------------------------------------|
-| [Utility2.py](#utility2py)                                            | [Input](#input-for-U2) / [Output](#output-for-U2) |
-|-----------------------------------------------------------------------|---------------------------------------------------|
-|                                                                       | [Feedback](#feedback-on-u1)                       |
-|-----------------------------------------------------------------------|---------------------------------------------------|
-| [Final Coding Challenge Takeaways](#final-coding-challenge-takeaways) |                                                   |
-|-----------------------------------------------------------------------|---------------------------------------------------|
-| [Possible Tax Feature Add-ons](#Possible-Tax-Feature-Add-ons)         |                                                   |
+| [Set up](#set-up)                                                     |                                                   |   |   |   |
+|-----------------------------------------------------------------------|---------------------------------------------------|---|---|---|
+| [Utility1.py](#utility1py-1)                                          | [Input](input-for-U1) / [Output](output-for-U1)   |   |   |   |
+|                                                                       | [Troubleshooting](#troubleshooting)               |   |   |   |
+|                                                                       | [Feedback](#feedback-on-u2)                       |   |   |   |
+| [Utility2.py](#utility2py)                                            | [Input](#input-for-U2) / [Output](#output-for-U2) |   |   |   |
+|                                                                       | [Feedback](#feedback-on-u1)                       |   |   |   |
+| [Final Coding Challenge Takeaways](#final-coding-challenge-takeaways) |                                                   |   |   |   |
+| [Possible Tax Feature Add-ons](#Possible-Tax-Feature-Add-ons)         |                                                   |   |   |   |
 ```
   
 
